@@ -13,15 +13,14 @@ div {
   position: absolute;
   left: 50%;
   top: 200px;
-  height: 300px;
-  width: 400px;
-  border: 2px solid hidden;
+  border: 2px solid #51d0de;
   transform: translate(-50%, -50%);
 }
 .greeting {
   position: relative;
   text-align: center;
   font-family: 'Mansalva', cursive;
+  font-size: 4vw;
   color: #bf4aa8;
   padding-top: 50px;
 }
@@ -29,14 +28,18 @@ img.peepoDance {
   position: relative;
   left: 50%;
   top: 50px;
+  max-width: 100%;
   transform: translate(-50%, -50%);
 }
 .compliment {
   position: relative;
   text-align: center;
-  font-size: 12px;
+  font-size: 2vw;
   font-family: 'Mansalva', cursive;
   font-style: italic;
   color: #bf4aa8;
   padding-top: 20px;
+}
+.compliment-word {
+    text-decoration: underline;
 }
