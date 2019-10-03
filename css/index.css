@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+::selection {
+  background: #5B8D36;
+}
+
+body {
+  background-color: #51d0de;
+}
+div {
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  height: 300px;
+  width: 400px;
+  border: 2px solid hidden;
+  transform: translate(-50%, -50%);
+}
+.greeting {
+  position: relative;
+  text-align: center;
+  font-family: 'Mansalva', cursive;
+  color: #bf4aa8;
+  padding-top: 50px;
+}
+img.peepoDance {
+  position: relative;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%, -50%);
+}
+.compliment {
+  position: relative;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Mansalva', cursive;
+  font-style: italic;
+  color: #bf4aa8;
+  padding-top: 20px;
+}
